@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+ 
+}
+
+.layout {
+  display: flex !important;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px !important;
+  background-color: #2c3e50 !important;
+  color: #fff !important;
+  min-height: 100vh !important;
+  padding: 20px !important;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.user-role {
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+.menu ul {
+  list-style: none !important;
+}
+
+.menu li {
+  padding: 10px !important;
+  cursor: pointer !important;
+}
+
+.menu li i {
+  margin-right: 10px !important;
+}
+
+.menu li:hover,
+.menu .active {
+  background-color: #34495e !important;
+  border-radius: 4px !important;
+}
+
+.submenu {
+  margin-left: 15px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #555;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.logout-btn {
+  color: #e74c3c;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-box,
+.template-box {
+  background: #fff;
+  padding: 20px;
+  flex: 1 1 300px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details {
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.change-btn {
+  background: #16a085;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.change-btn:hover {
+  background: #13856e;
+}
+
+.profile-name {
+  font-size: 18px;
+  margin: 10px 0;
+}

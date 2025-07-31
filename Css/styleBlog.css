@@ -1,0 +1,63 @@
+.section-encabezado {
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://cdn.pixabay.com/photo/2016/11/08/05/10/students-1807505_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(250, 241, 241);
+  text-align: center;
+}
+
+.section-encabezado h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+
+.contenedor-blog {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.card .btn {
+  margin-top: auto;
+}
+
+.modal-img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(16, 16, 16, 0.15);
+}
+
+.modal-title {
+  text-align: center;
+  width: 100%;
+  color: rgb(22, 22, 22)
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: rgb(22, 22, 22)
+}
